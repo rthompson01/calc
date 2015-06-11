@@ -23,4 +23,34 @@ var Promise = require('es6-promise').Promise
     // start app
     // new Router()
 // }
+import as template from ".calctemp.js" 
 
+var CalcView = Backbone.View.extend ({
+	el: '.container',
+
+	events: {
+
+		"click .keys span:not",
+		"click .clear": "Clear"
+		"click .eval": "Evaluate"
+	}
+})
+
+writeInput: function(e) {
+	document.querySelector('input').innerHTML += e.currentTarget.innerText
+},
+
+	Remove: function(e) {
+		document.querySelector('input').innerHTML = ''
+	},
+
+	evaluate: function() {
+		document.querySelector('input').innerHTML = eval(document.querySelector('.input').innerText
+	},
+
+initialize: function({
+	})
+
+var Pic = new CalcView()
+
+document.querySelector(.container).innerHTML=tempcalc();

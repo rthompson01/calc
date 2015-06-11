@@ -88,3 +88,71 @@ img {
 /**
  * YOUR CODE HERE
  */
+.calculator {
+
+    width: 300px;
+    line-height: : 60px;
+    border: 3px solid;
+    margin-top: 15%
+    margin-left: 35%
+    color:
+    font-family:
+}
+
+    .top {
+        display: flex;
+        width: 100%
+        background-color:
+        margin-top: 15%
+
+        span {
+
+            flex: 2;
+            border: 2px solid;
+            font-size: 1.5em;
+            text-align: center;
+                &:hover {
+                    background-color: ;
+                }
+        }
+
+        input {
+
+            flex: 2;
+            border: 1px solid;
+            font-size: 1.5em;
+            text-align: center;
+        }
+    }
+
+    .keys {
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-flow: row wrap;
+
+            span {
+
+                flex-basis: 85px
+                flex-grow: auto
+                border: 1px solid;
+                font-size: 1.5em
+                text-align: center;
+                background-color:;
+                    &:hover {
+
+                        background-color: ;
+
+                    }
+
+                .operator {
+
+                    background-color: ;
+
+                    }
+                }
+
+            }
+    }
